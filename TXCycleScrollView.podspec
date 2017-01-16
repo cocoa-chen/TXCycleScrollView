@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author             = { "陈爱彬" => "cocoa_chen@126.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/cocoa-chen/TXCycleScrollView.git", :tag => "#{s.version}" }
-  s.source_files  = "src/*.{h,m}"
+  s.source_files  = "src/TXCycleScrollView/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
   s.dependency "SDWebImage"
