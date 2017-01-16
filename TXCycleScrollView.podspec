@@ -3,6 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "Infinite ScrollView with autoScroll."
   s.description  = <<-DESC
+                  Auto scroll infinite banner for iOS.
                    DESC
   s.homepage     = "https://github.com/cocoa-chen/TXCycleScrollView.git"
   s.license      = "MIT"
