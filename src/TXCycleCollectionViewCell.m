@@ -7,7 +7,7 @@
 //
 
 #import "TXCycleCollectionViewCell.h"
-#import <UIImageView+WebCache.h>
+#import "UIImageView+WebCache.h"
 
 @interface TXCycleCollectionViewCell()
 
