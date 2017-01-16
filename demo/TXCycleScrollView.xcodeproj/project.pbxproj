@@ -14,8 +14,6 @@
 		694D344F1E236A9A009B6C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694D344E1E236A9A009B6C00 /* Assets.xcassets */; };
 		694D34521E236A9A009B6C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694D34501E236A9A009B6C00 /* LaunchScreen.storyboard */; };
 		694D345D1E236A9A009B6C00 /* TXCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 694D345C1E236A9A009B6C00 /* TXCycleScrollViewTests.m */; };
-		694D34691E236AB2009B6C00 /* TXCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694D34681E236AB2009B6C00 /* TXCycleScrollView.m */; };
-		694D346C1E236C93009B6C00 /* TXCycleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 694D346B1E236C93009B6C00 /* TXCycleCollectionViewCell.m */; };
 		778350130C93206EDFEF787F /* libPods-TXCycleScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD5D96B87C7021BE1C524EA /* libPods-TXCycleScrollView.a */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +42,6 @@
 		694D34581E236A9A009B6C00 /* TXCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		694D345C1E236A9A009B6C00 /* TXCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXCycleScrollViewTests.m; sourceTree = "<group>"; };
 		694D345E1E236A9A009B6C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		694D34671E236AB2009B6C00 /* TXCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCycleScrollView.h; sourceTree = "<group>"; };
-		694D34681E236AB2009B6C00 /* TXCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXCycleScrollView.m; sourceTree = "<group>"; };
-		694D346A1E236C93009B6C00 /* TXCycleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCycleCollectionViewCell.h; sourceTree = "<group>"; };
-		694D346B1E236C93009B6C00 /* TXCycleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXCycleCollectionViewCell.m; sourceTree = "<group>"; };
 		7DD5D96B87C7021BE1C524EA /* libPods-TXCycleScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TXCycleScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CF97CE17E5B2DA8C6363CA /* Pods-TXCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TXCycleScrollView/Pods-TXCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,10 +109,6 @@
 				694D34461E236A9A009B6C00 /* AppDelegate.m */,
 				694D34481E236A9A009B6C00 /* ViewController.h */,
 				694D34491E236A9A009B6C00 /* ViewController.m */,
-				694D34671E236AB2009B6C00 /* TXCycleScrollView.h */,
-				694D34681E236AB2009B6C00 /* TXCycleScrollView.m */,
-				694D346A1E236C93009B6C00 /* TXCycleCollectionViewCell.h */,
-				694D346B1E236C93009B6C00 /* TXCycleCollectionViewCell.m */,
 				694D344B1E236A9A009B6C00 /* Main.storyboard */,
 				694D344E1E236A9A009B6C00 /* Assets.xcassets */,
 				694D34501E236A9A009B6C00 /* LaunchScreen.storyboard */,
@@ -298,8 +288,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694D34691E236AB2009B6C00 /* TXCycleScrollView.m in Sources */,
-				694D346C1E236C93009B6C00 /* TXCycleCollectionViewCell.m in Sources */,
 				694D344A1E236A9A009B6C00 /* ViewController.m in Sources */,
 				694D34471E236A9A009B6C00 /* AppDelegate.m in Sources */,
 				694D34441E236A9A009B6C00 /* main.m in Sources */,

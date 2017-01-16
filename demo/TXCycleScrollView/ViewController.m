@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "TXCycleScrollView.h"
+#import <TXCycleScrollView.h>
 
 @interface ViewController ()
 <TXCycleScrollViewDelegate>
