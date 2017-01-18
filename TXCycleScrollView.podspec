@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/cocoa-chen/TXCycleScrollView.git"
   s.license      = "MIT"
-  s.author             = { "陈爱彬" => "cocoa_chen@126.com" }
+  s.author             = { "陈爱彬" => "136998328@qq.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/cocoa-chen/TXCycleScrollView.git", :tag => "#{s.version}" }
   s.source_files  = "src/TXCycleScrollView/*.{h,m}"
